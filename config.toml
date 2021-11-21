@@ -1,0 +1,32 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Diana's Hugo Site"
+theme = "hugo-theme-relearn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  themeVariant = "dwes"
+  
+  
+
+[Languages]
+    [Languages.es]
+        title = "Ejemplo para el uso de idiomas"
+        weight = 1
+        languageName = "Español"
+    [Languages.en]
+        title = "Example use language"
+        weight = 2
+        languageName = "English"
+   [Languages.fr]
+        title = "Exemple d'utilisation des langues"
+        weight = 3
+        languageName = "Français"
+
+defaultContentLanguage = 'es'
+
+  
+
+
